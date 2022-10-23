@@ -4,4 +4,4 @@ date: 2022-10-23
 inline: true
 ---
 
-Build this web! emoji! :tada:
+Build this web! :tada: :tada:
