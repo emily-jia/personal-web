@@ -1,7 +1,7 @@
 ---
 layout: page
 title: submenus
-nav: true
+nav: false  # change to true to allow access
 nav_order: 6
 dropdown: true
 children: 
