@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Contact me at jiaemily120@gmail.com
+subtitle: "Contact me at <a href = 'mailto: jiaemily120@gmail.com'>jiaemily120@gmail.com </a>"
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
     <p></p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
