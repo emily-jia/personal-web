@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: MonoRCore
+description: This is my graduation design program. A modular Rust operation system with scheduling and page replacement.
+img: 
+redirect: https://github.com/emily-jia/monoRCore-code
 importance: 2
 category: work
 ---

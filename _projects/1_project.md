@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Chrome Recorder
+description:  A recorder to caputer user action on websites. Used for data collection by Tsinghua NLP team.
+img: 
+redirect: https://github.com/zhengrc19/chrome-script-plugin
 importance: 1
 category: work
 ---
