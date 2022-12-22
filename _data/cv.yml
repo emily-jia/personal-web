@@ -33,7 +33,7 @@
   contents:
     - title: 'NeRFPrior: Learning Neural Radiance Field as a Prior for Indoor Scene Reconstruction'
       acknowledgement: Prof. Yu-Shen Liu 
-      year: 2022 Summer - Now
+      year: 2022.6 - Now
       description:
         - > 
           We propose a 2 stage training pipeline for faster and more detailed 3D scene reconstruction. 
@@ -45,7 +45,7 @@
         - This work is submitted! 
     - title: 'NeUDF: learning neural unsigned distance fields (UDF) by volume rendering'
       acknowledgement: Prof. Yu-Shen Liu 
-      year: 2022 Summer - Now
+      year: 2022.6 - Now
       description: 
         - >
           We investigate using UDF instead of SDF in neural radiance field learning. 
@@ -56,7 +56,7 @@
 
     - title: Domain Adaptation on Point cloud Completion
       acknowledgement: Prof. Yi Li
-      year: 2021 Autumn - 2022 Spring
+      year: 2021.11 - 2022.3
       description:
         - >
           We propose to use structure as a guide for point cloud completion. 
@@ -65,7 +65,7 @@
     
     - title: Learning structure deformation using cuboid abstraction
       acknowledgement: Prof. Yi Li
-      year: 2021 Summer - 2022 Autumn
+      year: 2021.6 - 2022.11
       description:
         - >
           We propose a method to learn possible variation for certain kind of human-made objects unsupervisedly. 
@@ -87,10 +87,10 @@
   type: time_table
   contents:
     - title: <a href="https://github.com/zhengrc19/chrome-script-plugin">Chrome Recorder</a>
-      year: 2022 Autumn - Now
+      year: 2022.10 - Now
       description: A recorder to caputer user action on websites. Used for data collection by Tsinghua NLP team.
     - title: <a href="https://github.com/emily-jia/monoRCore-code">MonoRCore</a>
-      year: 2022 Autumn - Now
+      year: 2022.11 - Now
       description: This is my graduation design program. A modular Rust operation system with scheduling and page replacement.
       
 # - title: Other Interests
