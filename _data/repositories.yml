@@ -2,7 +2,9 @@ github_users:
   - emily-jia
   # - alshedivat
 
-# github_repos:
+github_repos:
+  - emily-jia/monoRCore-code
+  - zhengrc19/chrome-script-plugin
 #   - alshedivat/al-folio
 #   - twbs/bootstrap
 #   - jekyll/jekyll

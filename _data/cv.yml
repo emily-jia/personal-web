@@ -8,6 +8,14 @@
     - name: Languages
       value: English, Chinese
 
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: 3D Computer Vision
+      items: 
+        - 3D reconstruction and scene understanding
+        - domain adaptation
+
 - title: Education
   type: time_table
   contents:
@@ -18,21 +26,52 @@
         - 'GPA: 3.83'
         - title: Scholarship
           contents:
-            - Beijing Scholarship for Excellent Foreign Students
+            - Excellent International Student, sponsored by the Beijing Government
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: something
-      acknowledgement: Prof. Yushen Liu 
+    - title: 'NeRFPrior: Learning Neural Radiance Field as a Prior for Indoor Scene Reconstruction'
+      acknowledgement: Prof. Yu-Shen Liu 
       year: 2022 Summer - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - > 
+          We propose a 2 stage training pipeline for faster and more detailed 3D scene reconstruction. 
+          On the first stage, we use a voxelized neural network to approximate the radiance field. 
+          On the second stage, we input the coarse radiance field as prior into a SDF-based Nerf and get a consistent and finegrained field for mesh reconstruction.
+        - >
+          Experiments show that our method achieve better reconstruction performance with less training time, compared with previous method such as Neus and unisurf. 
+          Meshes retrieved from our method have flatter wall and floor area and more accurate shape for small crafts such as bowls and spoons on table.
+        - This work is submitted! 
+    - title: 'NeUDF: learning neural unsigned distance fields (UDF) by volume rendering'
+      acknowledgement: Prof. Yu-Shen Liu 
+      year: 2022 Summer - Now
+      description: 
+        - >
+          We investigate using UDF instead of SDF in neural radiance field learning. 
+          We propose a set of formulas to translate UDF value into opacity value used in ray marching. 
+          Such translation meets both the occlusion-aware and intersection-maximum requirements, proposed by Neus.
+        - >
+          This work may not be submitted since we have found <a href="https://arxiv.org/abs/2211.14173">this paper</a> with the same topic.
+
+    - title: Domain Adaptation on Point cloud Completion
+      acknowledgement: Prof. Yi Li
+      year: 2021 Autumn - 2022 Spring
+      description:
+        - >
+          We propose to use structure as a guide for point cloud completion. 
+          Given a partial scan, we first predict its coarse cuboid structure using conditional GAN. 
+          Next, we refine the coarse cuboid prediction and output complete point clouds.
+    
+    - title: Learning structure deformation using cuboid abstraction
+      acknowledgement: Prof. Yi Li
+      year: 2021 Summer - 2022 Autumn
+      description:
+        - >
+          We propose a method to learn possible variation for certain kind of human-made objects unsupervisedly. 
+          We first extract the cuboid structure for each object. 
+          Then we learn several meta variations for the predicted structure by deforming the object to other objects in the set.
+    
 
 # - title: Honors and Awards
 #   type: time_table
@@ -42,25 +81,18 @@
 #         - Nobel Prize in Physics 
 #         - Matteucci Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
+    - title: <a href="https://github.com/zhengrc19/chrome-script-plugin">Chrome Recorder</a>
+      year: 2022 Autumn - Now
+      description: A recorder to caputer user action on websites. Used for data collection by Tsinghua NLP team.
+    - title: <a href="https://github.com/emily-jia/monoRCore-code">MonoRCore</a>
+      year: 2022 Autumn - Now
+      description: This is my graduation design program. A modular Rust operation system with scheduling and page replacement.
+      
 # - title: Other Interests
 #   type: list
 #   contents:
