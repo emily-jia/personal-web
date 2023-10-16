@@ -14,11 +14,14 @@
     - title: 3D Computer Vision
       items: 
         - 3D reconstruction and scene understanding
-        - domain adaptation
+        - 3D computer vision for robotics
 
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D
+      institution: University of Southern California
+      year: 2023 - Now
     - title: Undergraduate
       institution: Tsinghua University
       year: 2019 - 2023
@@ -33,7 +36,7 @@
   contents:
     - title: 'NeRFPrior: Learning Neural Radiance Field as a Prior for Indoor Scene Reconstruction'
       acknowledgement: Prof. Yu-Shen Liu 
-      year: 2022.6 - Now
+      year: 2022.6 - 2023.6
       description:
         - > 
           We propose a 2 stage training pipeline for faster and more detailed 3D scene reconstruction. 
@@ -43,16 +46,6 @@
           Experiments show that our method achieve better reconstruction performance with less training time, compared with previous method such as Neus and unisurf. 
           Meshes retrieved from our method have flatter wall and floor area and more accurate shape for small crafts such as bowls and spoons on table.
         - This work is submitted! 
-    - title: 'NeUDF: learning neural unsigned distance fields (UDF) by volume rendering'
-      acknowledgement: Prof. Yu-Shen Liu 
-      year: 2022.6 - Now
-      description: 
-        - >
-          We investigate using UDF instead of SDF in neural radiance field learning. 
-          We propose a set of formulas to translate UDF value into opacity value used in ray marching. 
-          Such translation meets both the occlusion-aware and intersection-maximum requirements, proposed by Neus.
-        - >
-          This work may not be submitted since we have found <a href="https://arxiv.org/abs/2211.14173">this paper</a> with the same topic.
 
     - title: Domain Adaptation on Point cloud Completion
       acknowledgement: Prof. Yi Li
