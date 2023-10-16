@@ -15,6 +15,4 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-I’m Emily Yue-ting Jia, an undergraduate student from Tsinghua University. It’s my fourth year at Tsinghua and I will graduate in 2023.I plan to go on for Doctor’s degree in US after graduation.
-My main research interest is computer vision and I have done some research under the guidance of [Prof. Li Yi](https://ericyi.github.io) and [Prof. Yushen Liu](https://yushen-liu.github.io). I’m also interested in operating system and have done some research about micro kernel for VM image as graduation program under the guidance of [Prof. Yu Chen](http://soft.cs.tsinghua.edu.cn/~chen/).
+I'm Emily Yue-ting Jia, a Ph.D. student at University of Southern California. I'm co-advised by [Prof. Yajie Zhao](https://www.yajie-zhao.com/) and [Prof. Yue Wang](https://yuewang.xyz/). I'm interested in 3D computer vison and my current research focuses on 3D reconstruction. I received my bachelor's degree from Tsinghua University, where I was lucky to work with [Prof. Li Yi](https://ericyi.github.io) and [Prof. Yushen Liu](https://yushen-liu.github.io).
