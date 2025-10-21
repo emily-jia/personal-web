@@ -2,10 +2,9 @@
 layout: page
 permalink: /publications/
 title: publications
-nav: true
 description: 
 years: []
-nav: false  # change to true to allow access
+nav: true  # change to true to allow access
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
