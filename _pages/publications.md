@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
+nav: true
 description: 
 years: []
 nav: false  # change to true to allow access
