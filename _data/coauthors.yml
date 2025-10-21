@@ -2,3 +2,23 @@
 #   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
 #     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
+Wang:
+  - firstname: ["Yue", "Y."]
+    url: https://yuewang.xyz
+
+Zhao:
+  - firstname: ["Yajie", "Y."]
+    url: https://www.yajie-zhao.com
+
+Mao:
+  - firstname: ["Jiageng", "J."]
+    url: https://pointscoder.github.io
+
+Liu:
+  - firstname: ["Yushen", "Y."]
+    url: https://yushen-liu.github.io
+
+Zhang:
+  - firstname: ["Wenyuan", "W."]
+    url: https://wen-yuan-zhang.github.io
+
