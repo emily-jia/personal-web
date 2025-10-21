@@ -227,7 +227,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: [Jia]
-  first_name: [Emily, E., Emily Yue-ting]
+  first_name: [Emily Yue-ting]
 
   style: apa
   locale: en
