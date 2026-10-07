@@ -31,6 +31,28 @@ body.sticky-bottom-footer {
   img {
     width: 100%;
   }
+  .profile-photo {
+    // Crop the original 4032 x 3024 photograph around the subject.
+    // The visible region is x=1500..2680, y=1630..3024.
+    aspect-ratio: 1180 / 1394;
+    overflow: hidden;
+    figure {
+      margin: 0;
+    }
+    img {
+      width: 341.694915%;
+      max-width: none;
+      height: auto;
+      transform: translate(-37.202381%, -53.902116%);
+      box-shadow: none !important;
+      border-radius: 0 !important;
+    }
+  }
+}
+
+.news th {
+  width: 8rem;
+  white-space: nowrap;
 }
 
 // TODO: redefine content layout.
